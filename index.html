@@ -63,6 +63,7 @@
         <div class="social-links text-center">
           <a href="https://www.linkedin.com/in/balqisima"><i class="bi bi-linkedin"></i></a>
           <a href="https://www.instagram.com/balqisima"><i class="bi bi-instagram"></i></a>
+          <a href="https://api.whatsapp.com/send/?phone=6282324113616&text&type=phone_number&app_absent=0"><i class="bi bi-whatsapp"></i></a>
         </div>
 
         <ul>
@@ -99,6 +100,7 @@
               <div class="social-links" data-aos="fade-up" data-aos-delay="400">
                 <a href="https://www.linkedin.com/in/balqisima"><i class="bi bi-linkedin"></i></a>
                 <a href="https://www.instagram.com/balqisima"><i class="bi bi-instagram"></i></a>
+                <a href="https://api.whatsapp.com/send/?phone=6282324113616&text&type=phone_number&app_absent=0"><i class="bi bi-whatsapp"></i></a>
               </div>
             </div>
           </div>
@@ -163,7 +165,7 @@
               <div class="skills-grid">
                 <div class="about-skill-item" data-aos="zoom-in" data-aos-delay="400">
                   <div class="about-skill-icon">
-                    <i class="bi bi-bi-graph-up"></i>
+                    <i class="bi bi-graph-up"></i>
                   </div>
                   <h4>Data Analysis & Modeling</h4>
                   <p>Analyze, model, and visualize data to uncover patterns, predict trends, and generate actionable insights</p>
@@ -203,9 +205,6 @@
                 <div class="fun-fact">
                   <span class="emoji">💡</span>
                   <span class="text">Turning complex data into clear insights</span>
-                </div>
-                <div class="action-buttons">
-                  <a href="#portfolio" class="btn btn-primary">View My Work</a>
                 </div>
               </div>
 
@@ -388,6 +387,32 @@
 
       </div>
 <style>
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px; /* jarak antar kotak */
+  margin-top: 20px;
+}
+
+.about-skill-item {
+  background: #f8faff;        /* warna latar lembut */
+  border: 1px solid #e1e6f0;  /* garis tipis */
+  border-radius: 12px;        /* sudut rounded */
+  padding: 20px;
+  text-align: left;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05); /* efek kartu */
+  transition: transform 0.2s ease;
+}
+
+.about-skill-item:hover {
+  transform: translateY(-5px);
+}
+
+.about-skill-icon {
+  font-size: 28px;
+  color: #1e40af; /* biru biar konsisten */
+  margin-bottom: 12px;
+}
 .skills-summary {
   background: #fff;
   padding: 20px;
@@ -853,7 +878,7 @@
           <div class="col-lg-7">
             <div class="contact-form" data-aos="fade-up" data-aos-delay="300">
               <h3>Get In Touch</h3>
-              <p>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis.</p>
+              <p>I’m always open to new opportunities, collaborations, and conversations. Feel free to reach out!</p>
 
               <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
                 <div class="row gy-4">
